@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Learn_Nonstopshipping>
+            <version>1.0.0</version>
+        </Learn_Nonstopshipping>
+    </modules>
+    <global>
+        <models>
+            <nonstopshipping>
+                <class>Learn_Nonstopshipping_Model</class>
+            </nonstopshipping>
+        </models>
+        <helpers>
+            <nonstopshipping>
+                <class>Learn_Nonstopshipping_Helper</class>
+            </nonstopshipping>
+        </helpers>
+    </global>
+    <default>
+        <carriers>
+            <nonstopshipping>
+                <active>1</active>
+                <model>nonstopshipping/carrier</model>
+                <title>Non-Stop Shipping Carrier</title>
+                <sort_order>8</sort_order>
+                <sallowspecific>0</sallowspecific>
+                <specificerrmsg>This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact us.</specificerrmsg>
+                <one_day_weight>10</one_day_weight>
+                <one_week_weight>5</one_week_weight>
+                <normarl_weight>1</normarl_weight>
+            </nonstopshipping>
+        </carriers>
+    </default>
+</config>
